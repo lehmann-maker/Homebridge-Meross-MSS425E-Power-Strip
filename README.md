@@ -35,6 +35,8 @@ A detailed tutorial on how to set up Charles with your iOS device can be found
 
 Please rewrite your script for use of Meross-MSS425E-Power-Strip as following:
 
+```
+
 "accessories": [
 {
             "name": "Plug1",
@@ -77,3 +79,5 @@ Please rewrite your script for use of Meross-MSS425E-Power-Strip as following:
             "accessory": "Meross"
         }
     ]
+    
+```
