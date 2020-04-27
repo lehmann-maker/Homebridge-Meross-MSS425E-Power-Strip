@@ -14,8 +14,10 @@
 </p>
 
 </span>
+
 ## Origin
 The original work was done by [donavanbecker](https://github.com/donavanbecker). This is only refinement information for Meross-MSS425E-Power-Strip, given in script below. Thanks to [donavanbecker](https://github.com/donavanbecker) for the plugin.
+
 ## Installation
 * Install [config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
 * Search for "Meross" on the Plugin Screen of [config-ui-x](https://github.com/oznu/homebridge-config-ui-x) .
@@ -33,3 +35,45 @@ A detailed tutorial on how to set up Charles with your iOS device can be found
 
 Please rewrite your script for use of Meross-MSS425E-Power-Strip as following:
 
+"accessories": [
+{
+            "name": "Plug1",
+            "deviceUrl": "http://xxx.xxx.xxx.xxx",
+            "hardwareVersion": 2,
+            "channel": 1,
+            "messageId": "xxxxxxx",
+            "timestamp": xxxxxx,
+            "sign": "xxxxxx",
+            "accessory": "Meross"
+        },
+        {
+            "name": "Plug2",
+            "deviceUrl": "http://xxx.xxx.xxx.xxx",
+            "hardwareVersion": 2,
+            "channel": 2,
+            "messageId": "xxxxxxx",
+            "timestamp": xxxxxx,
+            "sign": "xxxxxx",
+            "accessory": "Meross"
+        },
+        {
+            "name": "Plug3",
+            "deviceUrl": "http://xxx.xxx.xxx.xxx",
+            "hardwareVersion": 2,
+            "channel": 3,
+            "messageId": "xxxxxxx",
+            "timestamp": xxxxxx,
+            "sign": "xxxxxx",
+            "accessory": "Meross"
+        },
+        {
+            "name": "USB",
+            "deviceUrl": "http://xxx.xxx.xxx.xxx",
+            "hardwareVersion": 2,
+            "channel": 4,
+            "messageId": "xxxxxxx",
+            "timestamp": xxxxxx,
+            "sign": "xxxxxx",
+            "accessory": "Meross"
+        }
+    ]
